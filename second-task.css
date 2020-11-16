@@ -1,0 +1,176 @@
+body {
+  background-image: url("https://ccute.cc/wp-content/uploads/2018/07/5378-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.menu-btn {
+  background-color : black;
+  color:white;
+  margin-top: 10px;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  float: right;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-all;
+}
+.menu-btn_burger {
+  width: 25px;
+  height: 4px;
+   margin-left: 2px;
+  background: #262626;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn_burger:before,
+.menu-btn_burger:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 4px;
+  background: #262626;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn_burger:after {
+  transform: translateY(-7px);
+}
+.menu-btn_burger:before {
+  transform: translateY(7px);
+}
+
+.title {
+  margin: 20px;
+  font-size: 40px;
+  color: #262626;
+  font-style: italic;
+}
+.div_1{
+  background-color : white ;
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-bottom:100px;
+  width: 500px;
+  height:500px;
+  border: 1px solid #CCC;
+  padding:10px;
+}
+.div_2{
+  background-color : white ;
+  text-align:center;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right:500px;
+  margin-bottom:100px;
+  width: 320px;
+  height:460px;
+  padding:10px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px grey;
+}
+aside {
+  float: right;
+  width: 300px;
+  height: 600px;
+  opacity: 0.5;
+  background: blue ;
+}
+ul {
+  text-align : center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+a{
+  color:white;
+  list-style-type:none;
+  text-decoration: none;
+}
+a:hover {
+  color:red;
+  background-color: none;
+  text-decoration: none;
+  box-shadow: 0 0 20px red, inset 0 0 10px red;
+}
+h1{
+   text-align : center;
+   color  : blue;
+}
+h5{
+  text-align : center;
+   color  : grey;
+}
+
+.input1{
+  padding: 10px;
+  font-size: 10px;
+  color: #262626;
+  height: 20px;
+  width: 300px;
+  text-align: center;
+  outline: none;
+  border: 1px solid #CCC;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px grey inset;
+  margin-top: 10px;
+  margin-left:00px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+.input2{
+  padding: 10px;
+  font-size: 10px;
+  color: #262626;
+  height: 20px;
+  width: 300px;
+  border: 1px solid #CCC;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px grey inset;
+  text-align: center;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 00px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+.input3{
+  padding: 10px;
+  font-size:10px;
+  outline: none;
+  background-color: blue;
+  color: #262626;
+  height: 35px;
+  width: 300px;
+  cursor: pointer;
+  border: 2px solid #CCC;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px grey inset;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+.input1:hover,
+.input2:hover{
+  background: lightblue;
+  text-color: black;
+  border: 1px solid #E9967A;
+  box-shadow: 0 0 20px #E9967A, inset 0 0 10px #E9967A;
+}
+.input3:hover {
+  background: lightblue;
+  color: black;
+  border: 1px solid #E9967A;
+  box-shadow: 0 0 20px #E9967A, inset 0 0 10px #E9967A;
+}
+.vip{
+  color:blue;
+  list-style-type:none;
+  text-decoration: none;
+}
